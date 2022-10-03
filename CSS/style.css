@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Slab:wght@300&display=swap');
+body{
+    size: 100%;
+    margin: 0;
+    padding: 0;
+    background: #dffdfc;
+    font-family: 'Nunito', sans-serif;
+}
+section{
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
+}
+nav{
+    background-color: #2e94cc;
+    padding: 2px;
+    font-size: 19px;
+}
+nav ul{
+    list-style: none;
+    display: right;
+    justify-content: space-around;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: right;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+h1{
+    font-size: 30px;
+    color: #4CAF50;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    color: #6ccdda;
+}
+.footer{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom:0;
+}
+a{
+    text-decoration: none;
+    color: #e80887;
+}
+a:hover{
+    color: #ea4a77;
+}
+button{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    padding: 10px 24px;
+}
+button:hover{
+    background-color: #03f2ce;
+    color: white;
+}
+i{
+    font-size: 20px;
+    color: #0a69de;
+}
+
